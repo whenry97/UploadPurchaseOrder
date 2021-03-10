@@ -1,0 +1,133 @@
+@page
+@model UploadPurchaseOrder.Pages.PurchaseOrders.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Order Number
+            </th>
+            <th>
+                Buyer Name
+            </th>
+            <th>
+                Buyer Street Address
+            </th>
+            <th>
+                City, State, ZIP
+            </th>
+            <th>
+                Buyer Phone Number
+            </th>
+            <th>
+                Order Date
+            </th>
+            <th>
+                Vendor Name
+            </th>
+            <th>
+                Vendor Street Address
+            </th>
+            <th>
+                City, State, ZIP
+            </th>
+            <th>
+                Vendor Phone Number
+            </th>
+            <th>
+                Subtotal
+            </th>
+            <th>
+                Tax
+            </th>
+            <th>
+                Shipping
+            </th>
+            <th>
+                Final Total
+            </th>
+            <th>
+                Link to Purchase Order
+            </th>
+            <th>
+                Upload PDF
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.PurchaseOrder) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.orderNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.buyerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.buyerStreetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.buyerCityStateZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.buyerPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vendorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vendorStreetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vendorCityStateZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vendorPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.subtotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.shipping)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fullTotal)
+            </td>
+            <td>
+                @{
+                    if (String.IsNullOrEmpty(item.purchaseOrderPDF))
+                    {
+                        <a asp-page="./UploadPDF" asp-route-id="@item.ID">Upload</a>
+                    }
+                    else
+                    {
+                        var filePath = String.Join("/", "UploadedFiles", item.purchaseOrderPDF);
+                        <a href="@filePath">View</a>
+                    }
+                }
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a><br>
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a><br>
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

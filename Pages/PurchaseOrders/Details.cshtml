@@ -1,0 +1,103 @@
+@page
+@model UploadPurchaseOrder.Pages.PurchaseOrders.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>PurchaseOrder</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Order Number
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.orderNumber)
+        </dd>
+        <dt class="col-sm-2">
+            Buyer Name
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.buyerName)
+        </dd>
+        <dt class="col-sm-2">
+            Buyer Street Address
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.buyerStreetAddress)
+        </dd>
+        <dt class="col-sm-2">
+            Buyer City, State, ZIP
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.buyerCityStateZip)
+        </dd>
+        <dt class="col-sm-2">
+            Buyer Phone Number
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.buyerPhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            Order Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.OrderDate)
+        </dd>
+        <dt class="col-sm-2">
+            Vendor Name
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.vendorName)
+        </dd>
+        <dt class="col-sm-2">
+            Vendor Street Address
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.vendorStreetAddress)
+        </dd>
+        <dt class="col-sm-2">
+            Vendor City, State, ZIP
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.vendorCityStateZip)
+        </dd>
+        <dt class="col-sm-2">
+            Vendor Phone Number
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.vendorPhoneNumber)
+        </dd>
+        <dt class="col-sm-2">
+            Subtotal
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.subtotal)
+        </dd>
+        <dt class="col-sm-2">
+            Tax
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.tax)
+        </dd>
+        <dt class="col-sm-2">
+            Shipping
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.shipping)
+        </dd>
+        <dt class="col-sm-2">
+            Final Total
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PurchaseOrder.fullTotal)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.PurchaseOrder.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

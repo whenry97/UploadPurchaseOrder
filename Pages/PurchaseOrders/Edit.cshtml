@@ -1,0 +1,100 @@
+@page
+@model UploadPurchaseOrder.Pages.PurchaseOrders.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>PurchaseOrder</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PurchaseOrder.ID" />
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.orderNumber" class="control-label"></label>
+                <input asp-for="PurchaseOrder.orderNumber" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.orderNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.buyerName" class="control-label"></label>
+                <input asp-for="PurchaseOrder.buyerName" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.buyerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.buyerStreetAddress" class="control-label"></label>
+                <input asp-for="PurchaseOrder.buyerStreetAddress" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.buyerStreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.buyerCityStateZip" class="control-label"></label>
+                <input asp-for="PurchaseOrder.buyerCityStateZip" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.buyerCityStateZip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.buyerPhoneNumber" class="control-label"></label>
+                <input asp-for="PurchaseOrder.buyerPhoneNumber" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.buyerPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.OrderDate" class="control-label"></label>
+                <input asp-for="PurchaseOrder.OrderDate" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.OrderDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.vendorName" class="control-label"></label>
+                <input asp-for="PurchaseOrder.vendorName" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.vendorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.vendorStreetAddress" class="control-label"></label>
+                <input asp-for="PurchaseOrder.vendorStreetAddress" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.vendorStreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.vendorCityStateZip" class="control-label"></label>
+                <input asp-for="PurchaseOrder.vendorCityStateZip" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.vendorCityStateZip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.vendorPhoneNumber" class="control-label"></label>
+                <input asp-for="PurchaseOrder.vendorPhoneNumber" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.vendorPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.subtotal" class="control-label"></label>
+                <input asp-for="PurchaseOrder.subtotal" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.subtotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.tax" class="control-label"></label>
+                <input asp-for="PurchaseOrder.tax" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.tax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.shipping" class="control-label"></label>
+                <input asp-for="PurchaseOrder.shipping" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.shipping" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PurchaseOrder.fullTotal" class="control-label"></label>
+                <input asp-for="PurchaseOrder.fullTotal" class="form-control" />
+                <span asp-validation-for="PurchaseOrder.fullTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

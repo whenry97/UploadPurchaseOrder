@@ -1,0 +1,14 @@
+@page
+@model UploadPurchaseOrder.Pages.PurchaseOrders.UploadPDFModel
+@{
+    ViewData["Title"] = "Upload File";
+}
+
+<div class="text-center">
+    <h1>Upload a File</h1>
+</div>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" asp-for="PDFOrder" />
+    <input type="submit" />
+</form>
