@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
+  "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,68 +15603,68 @@
   "RootNamespace": "UploadPurchaseOrder",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Create.cshtml",
-      "TargetPath": "Pages\\PurchaseOrders\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\UploadPDF.cshtml",
-      "TargetPath": "Pages\\PurchaseOrders\\UploadPDF.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Delete.cshtml",
-      "TargetPath": "Pages\\PurchaseOrders\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Index.cshtml",
-      "TargetPath": "Pages\\PurchaseOrders\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Details.cshtml",
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Details.cshtml",
       "TargetPath": "Pages\\PurchaseOrders\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Edit.cshtml",
+      "TargetPath": "Pages\\PurchaseOrders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Index.cshtml",
+      "TargetPath": "Pages\\PurchaseOrders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\UploadPDF.cshtml",
+      "TargetPath": "Pages\\PurchaseOrders\\UploadPDF.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Edit.cshtml",
-      "TargetPath": "Pages\\PurchaseOrders\\Edit.cshtml",
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Create.cshtml",
+      "TargetPath": "Pages\\PurchaseOrders\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\PurchaseOrders\\Delete.cshtml",
+      "TargetPath": "Pages\\PurchaseOrders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],

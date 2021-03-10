@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj": {}
+    "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj": {
+    "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
+        "projectUniqueName": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
         "projectName": "UploadPurchaseOrder",
-        "projectPath": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
+        "projectPath": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\UploadPurchaseOrder.csproj",
         "packagesPath": "C:\\Users\\whenr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\obj\\",
+        "outputPath": "C:\\Users\\whenr\\Documents\\ProgramProjects\\UploadPurchaseOrder\\UploadPurchaseOrder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
